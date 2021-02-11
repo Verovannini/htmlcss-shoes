@@ -17,7 +17,7 @@ img{
 /* FINE COMMON */
 
 /* NAV */
-nav li a{
+.fixed-menu a{
     text-decoration: none;
     list-style: none;
     color: black;
@@ -30,12 +30,12 @@ nav li a{
     background-color: white;
 }
 
-nav li{
+.fixed-menu li{
    display: inline-block; 
    padding: 40px 30px 0 0;
 }
 
-nav ul{
+.fixed-menu ul{
     position: absolute;
     right: 0;
     position: fixed;
@@ -50,13 +50,13 @@ nav ul{
     position: relative;
 }
 
-.container section.red-background{
+.red-background{
     background-color: red;
 }
-.container section.green-background{
+.green-background{
     background-color: green;
 }
-.container section.yellow-background{
+.yellow-background{
     background-color: yellow;
 }
 
